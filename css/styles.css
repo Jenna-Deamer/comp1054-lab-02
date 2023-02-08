@@ -7,7 +7,7 @@
 
 html {
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* love this!*/
 }
 
 header {
@@ -26,7 +26,7 @@ h3 {
 }
 
 /* Add an underline for the 2nd section's h2 */
-#playlist>h2 {
+#playlist>h2 { /* formatting tip - add space between selectors with multiple parts i.e. playlist > h2 */
     border-bottom: 2px solid #16a085;
 }
 
@@ -64,6 +64,8 @@ nav a:hover {
     background-color: #1abc9c;
 }
 
+/* as discussed in class, a good idea to style all link states and style them in order :link, :visited, :focus, :hover, :active */
+
 /* Layout */
 
 .wrapper {
@@ -97,6 +99,7 @@ main section {
 table {
     padding-top: 10px;
     margin: 0 auto;
+    /* as discussed in class, a good idea to set table-layout to fixed as this makes the behaviour of the table more predictable */
 }
 
 thead th {
